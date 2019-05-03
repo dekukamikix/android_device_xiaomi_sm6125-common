@@ -98,3 +98,7 @@ PRODUCT_PROPERTY_OVERRIDES +=  \
     vendor.power.pasr.enabled=false \
     vendor.qcom.bluetooth.soc=cherokee \
     vendor.voice.path.for.pcm.voip=true
+
+# SurfaceFlinger
+PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
+    ro.surface_flinger.protected_contents=true
