@@ -263,7 +263,7 @@ vendor/lib64/vendor.qti.hardware.cvp@1.0.so
 
 # Camera
 lib64/libseemore.so
-vendor/lib/hw/camera.trinket.so
+vendor/lib/hw/camera.trinket.so|7736e6723ec792f0635cee31ad88f7eb1ffb4f50
 vendor/lib/libalhLDC.so
 vendor/lib/libalLDC.so
 vendor/lib/libbase64.so
