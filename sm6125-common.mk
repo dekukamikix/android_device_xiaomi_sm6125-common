@@ -290,6 +290,10 @@ PRODUCT_COPY_FILES += \
     frameworks/av/media/libstagefright/data/media_codecs_google_telephony.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_google_telephony.xml \
     frameworks/av/media/libstagefright/data/media_codecs_google_video.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_google_video.xml
 
+PRODUCT_PACKAGES += \
+    libstagefright_omx.vendor \
+    android.hardware.media.omx@1.0-service
+
 # Net
 PRODUCT_PACKAGES += \
     netutils-wrapper-1.0
