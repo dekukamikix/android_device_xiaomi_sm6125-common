@@ -351,6 +351,13 @@ PRODUCT_PACKAGES += \
     android.hardware.sensors@1.0-impl \
     android.hardware.sensors@1.0-service
 
+# Shims
+TARGET_LD_SHIM_LIBS := \
+    /vendor/lib64/hw/audio.primary.trinket.so|/system/lib64/vndk-sp-29/libprocessgroup.so \
+    /vendor/lib64/libgps.utils.so|/system/lib64/vndk-sp-29/libprocessgroup.so \
+    /vendor/lib/hw/audio.primary.trinket.so|/system/lib/vndk-sp-29/libprocessgroup.so \
+    /vendor/lib/libgps.utils.so|/system/lib/vndk-sp-29/libprocessgroup.so
+
 # Telephony
 PRODUCT_PACKAGES += \
     telephony-ext \
