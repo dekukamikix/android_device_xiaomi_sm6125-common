@@ -1198,7 +1198,7 @@ vendor/lib64/hw/consumerir.default.so
 # DPM
 bin/dpmd
 etc/dpm/dpm.conf
-etc/init/dpmd.rc
+#etc/init/dpmd.rc
 etc/permissions/com.qti.dpmframework.xml
 etc/permissions/dpmapi.xml
 framework/com.qti.dpmframework.jar
@@ -1214,7 +1214,7 @@ lib64/libdpmctmgr.so
 lib64/libdpmfdmgr.so
 lib64/libdpmframework.so
 lib64/libdpmtcm.so
--priv-app/dpmserviceapp/dpmserviceapp.apk
+#-priv-app/dpmserviceapp/dpmserviceapp.apk
 vendor/bin/dpmQmiMgr
 vendor/lib/com.qualcomm.qti.dpm.api@1.0.so
 vendor/lib/libdpmqmihal.so
