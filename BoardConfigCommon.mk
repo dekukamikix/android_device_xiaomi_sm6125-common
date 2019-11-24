@@ -8,6 +8,9 @@ BOARD_VENDOR := xiaomi
 
 VENDOR_PATH := device/xiaomi/sm6125-common
 
+BUILD_BROKEN_DUP_RULES := true
+BUILD_BROKEN_PHONY_TARGETS := true
+
 # Architecture
 TARGET_ARCH := arm64
 TARGET_ARCH_VARIANT := armv8-a
