@@ -298,21 +298,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     netutils-wrapper-1.0
 
-# OMX
-PRODUCT_PACKAGES += \
-    libOmxAacEnc \
-    libOmxAmrEnc \
-    libOmxCore \
-    libOmxEvrcEnc \
-    libOmxG711Enc \
-    libOmxQcelp13Enc \
-    libOmxVdec \
-    libOmxVenc \
-    libc2dcolorconvert \
-    libmm-omxcore \
-    libstagefrighthw \
-    libplatformconfig
-
 # Power
 PRODUCT_PACKAGES += \
     android.hardware.power@1.2-service.xiaomi_sm6125
