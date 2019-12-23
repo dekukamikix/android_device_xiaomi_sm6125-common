@@ -294,6 +294,11 @@ PRODUCT_PACKAGES += \
     libstagefright_omx.vendor \
     android.hardware.media.omx@1.0-service
 
+# Namespace
+PRODUCT_BOARD_PLATFORM := trinket
+PRODUCT_USES_QCOM_HARDWARE := true
+PRODUCT_SOONG_NAMESPACES += $(LOCAL_PATH)
+
 # Net
 PRODUCT_PACKAGES += \
     netutils-wrapper-1.0
