@@ -1689,6 +1689,16 @@ vendor/lib64/libgcs.so
 vendor/lib64/liblistenjni.so
 vendor/lib64/liblistensoundmodel2.so
 
+# Configstore - from davinci-user 10 QKQ1.190825.002 V11.0.2.0.QFJCNXM release-keys
+-vendor/lib/libplatformconfig.so|05f9ad27a2e17f3df6ee9258744e0369ef16e8fa
+-vendor/lib64/libplatformconfig.so|68ffaf8e448c32b11b5da47708170d0decb8dc7b
+vendor/bin/hw/vendor.qti.hardware.capabilityconfigstore@1.0-service|21cba9e17196a7b6f0a66fb17bade23cab4b5b94
+vendor/etc/init/vendor.qti.hardware.capabilityconfigstore@1.0-service.rc|4ede0250585a44b01d351bbc301d7a13cc3d783d
+vendor/lib/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so|ecf907cce3c8fcb8594bc025c78c4be6505bc563
+vendor/lib/vendor.qti.hardware.capabilityconfigstore@1.0.so|bf310fa21ed2d3500f30228b36bcce3173b85d8b
+vendor/lib64/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so|2755930adacac26e11801db7a8f1957b869aabd6
+vendor/lib64/vendor.qti.hardware.capabilityconfigstore@1.0.so|9e02db5f6b99905b22b0814da97852dff38a578b
+
 # Media
 lib/extractors/libmmparser.so
 lib/libFileMux.so
@@ -2608,10 +2618,3 @@ vendor/lib64/libUSTANative.so
 vendor/lib64/libwapi_cert.so
 vendor/lib64/libwvkeybox.so
 vendor/lib64/vendor.qti.hardware.servicetracker@1.0.so
-
-lib64/android.hardware.camera.provider@2.4.so
-lib/android.hardware.camera.provider@2.4.so
-vendor/bin/hw/android.hardware.camera.provider@2.4-service
-vendor/etc/init/android.hardware.camera.provider@2.4-service.rc
-vendor/lib64/hw/android.hardware.camera.provider@2.4-impl.so
-vendor/lib/hw/android.hardware.camera.provider@2.4-impl.so
