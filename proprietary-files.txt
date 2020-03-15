@@ -1,32 +1,32 @@
 # ADSP - from davinci-user 10 QKQ1.190825.002 V11.0.2.0.QFJCNXM release-keys
-vendor/bin/adsprpcd|0cdd541ee0a365c5dccd0613e495611f4d0f6607
-vendor/etc/init/vendor.qti.adsprpc-sscrpc-service.rc|13d8a911642844bde32d533948a35730e17d41ad
-vendor/lib/libadsp_default_listener.so|7da1a1cfef2f04e3577d0e1cda81ce12204598fa
-vendor/lib/libadsprpc.so|28a1d664aba2bda20e62d04c09c117eea136d3c7
-vendor/lib/libmdsprpc.so|07e492c35dc205391d8d7e2d4684801ed870d329
-vendor/lib/libsdsprpc.so|f4d860f07a9e44a04eb9578771f079528c770109
-vendor/lib64/libadsp_default_listener.so|abace257c0ae59ddc693f1e42d16670312673873
-vendor/lib64/libadsprpc.so|aea62273ca4355ceb76dfeec2cd11d39614a854e
-vendor/lib64/libmdsprpc.so|df135d5ca3e0ac4ccc670a4133f781d77315f089
-vendor/lib64/libsdsprpc.so|65f23710d4895b738c9eb827b513b1d9d9480aad
+#vendor/bin/adsprpcd|0cdd541ee0a365c5dccd0613e495611f4d0f6607
+#vendor/etc/init/vendor.qti.adsprpc-sscrpc-service.rc|13d8a911642844bde32d533948a35730e17d41ad
+#vendor/lib/libadsp_default_listener.so|7da1a1cfef2f04e3577d0e1cda81ce12204598fa
+#vendor/lib/libadsprpc.so|28a1d664aba2bda20e62d04c09c117eea136d3c7
+#vendor/lib/libmdsprpc.so|07e492c35dc205391d8d7e2d4684801ed870d329
+#vendor/lib/libsdsprpc.so|f4d860f07a9e44a04eb9578771f079528c770109
+#vendor/lib64/libadsp_default_listener.so|abace257c0ae59ddc693f1e42d16670312673873
+#vendor/lib64/libadsprpc.so|aea62273ca4355ceb76dfeec2cd11d39614a854e
+#vendor/lib64/libmdsprpc.so|df135d5ca3e0ac4ccc670a4133f781d77315f089
+#vendor/lib64/libsdsprpc.so|65f23710d4895b738c9eb827b513b1d9d9480aad
 
 # ADSP modules - from davinci-user 10 QKQ1.190825.002 V11.0.2.0.QFJCNXM release-keys
-vendor/lib/rfsa/adsp/capi_v2_aptX_Classic.so|59cbdf5d84ba2ff64014941f3ad9e6c2c35e2c06
-vendor/lib/rfsa/adsp/capi_v2_aptX_HD.so|e25f1087edc95d2ff76c1e37787ca37aae2cf175
-vendor/lib/rfsa/adsp/dirac_resource.dar|8697ff9e77a872b849cd2ce95afa45dac97cb01e
-vendor/lib/rfsa/adsp/libVC1Dec.so|79a8425bc640ed3401a784ca5f4f04865a3e38e3
-vendor/lib/rfsa/adsp/libVC1DecDsp_skel.so|e108bf1175b6ebaead5b9eec3b9279c8edbb52e3
-vendor/lib/rfsa/adsp/libapps_mem_heap.so|de5ea1c639d93d1a66f43d3d3e8f4e1602c0a83e
-vendor/lib/rfsa/adsp/libcamera_nn_skel.so|29d949909c9f115491b781ff93604be238e0f965
-vendor/lib/rfsa/adsp/libcvpdsp_skel.so|58cbb97212073cf7e4780c6d77a7628c3ee845bd
-vendor/lib/rfsa/adsp/libdirac-capiv2.so|c1432e70a935bc34b3787a4973fce4bab1faf4e2
-vendor/lib/rfsa/adsp/libdspCV_skel.so|c1ab1b81cd2f2c584aa51e722244c436a0f24f6b
-vendor/lib/rfsa/adsp/libdsp_streamer_add_constant.so|481cdec174e77e5cb555d715057170568892a18f
-vendor/lib/rfsa/adsp/libdsp_streamer_binning.so|00eb6acc7c864371b932f95ff98e98351c6508d8
-vendor/lib/rfsa/adsp/libdsp_streamer_skel.so|aee67209556f075cabdb55ddc70d7a76ffc74b3b
-vendor/lib/rfsa/adsp/libhexagon_nn_skel.so|1dc2f84efcb8ac9a72f98de014b7f763ad61847b
-vendor/lib/rfsa/adsp/libsns_device_mode_skel.so|733a5b8861bb6eb1285bb8982992531c94800997
-vendor/lib/rfsa/adsp/libsns_low_lat_stream_skel.so|c30bb30eecf968e02f72c055d3cc13a7f769644f
+#vendor/lib/rfsa/adsp/capi_v2_aptX_Classic.so|59cbdf5d84ba2ff64014941f3ad9e6c2c35e2c06
+#vendor/lib/rfsa/adsp/capi_v2_aptX_HD.so|e25f1087edc95d2ff76c1e37787ca37aae2cf175
+#vendor/lib/rfsa/adsp/dirac_resource.dar|8697ff9e77a872b849cd2ce95afa45dac97cb01e
+#vendor/lib/rfsa/adsp/libVC1Dec.so|79a8425bc640ed3401a784ca5f4f04865a3e38e3
+#vendor/lib/rfsa/adsp/libVC1DecDsp_skel.so|e108bf1175b6ebaead5b9eec3b9279c8edbb52e3
+#vendor/lib/rfsa/adsp/libapps_mem_heap.so|de5ea1c639d93d1a66f43d3d3e8f4e1602c0a83e
+#vendor/lib/rfsa/adsp/libcamera_nn_skel.so|29d949909c9f115491b781ff93604be238e0f965
+#vendor/lib/rfsa/adsp/libcvpdsp_skel.so|58cbb97212073cf7e4780c6d77a7628c3ee845bd
+#vendor/lib/rfsa/adsp/libdirac-capiv2.so|c1432e70a935bc34b3787a4973fce4bab1faf4e2
+#vendor/lib/rfsa/adsp/libdspCV_skel.so|c1ab1b81cd2f2c584aa51e722244c436a0f24f6b
+#vendor/lib/rfsa/adsp/libdsp_streamer_add_constant.so|481cdec174e77e5cb555d715057170568892a18f
+#vendor/lib/rfsa/adsp/libdsp_streamer_binning.so|00eb6acc7c864371b932f95ff98e98351c6508d8
+#vendor/lib/rfsa/adsp/libdsp_streamer_skel.so|aee67209556f075cabdb55ddc70d7a76ffc74b3b
+#vendor/lib/rfsa/adsp/libhexagon_nn_skel.so|1dc2f84efcb8ac9a72f98de014b7f763ad61847b
+#vendor/lib/rfsa/adsp/libsns_device_mode_skel.so|733a5b8861bb6eb1285bb8982992531c94800997
+#vendor/lib/rfsa/adsp/libsns_low_lat_stream_skel.so|c30bb30eecf968e02f72c055d3cc13a7f769644f
 
 # Alarm - from davinci-user 10 QKQ1.190825.002 V11.0.2.0.QFJCNXM release-keys
 -product/app/PowerOffAlarm/PowerOffAlarm.apk|29ea64d6d9b20b29f7b3ffb3f71a81038a0ec64c
@@ -94,7 +94,7 @@ vendor/etc/acdbdata/IDP/IDP_Hdmi_cal.acdb|2fe3895d35dd39b59cba444f0eed515c54ffdd
 vendor/etc/acdbdata/IDP/IDP_Headset_cal.acdb|0de141210d207e57fa9a6a32c245d1302490a0e6
 vendor/etc/acdbdata/IDP/IDP_Speaker_cal.acdb|4d57919157b4218bc6cd3032901285f5a5da30aa
 vendor/etc/acdbdata/IDP/IDP_workspaceFile.qwsp|41a5a897f5298c9c7fce130457e53afb4ad097d0
-vendor/etc/acdbdata/adsp_avs_config.acdb|3a8a0f2908756d39ee600c02b429f131716f6044
+#vendor/etc/acdbdata/adsp_avs_config.acdb|3a8a0f2908756d39ee600c02b429f131716f6044
 
 # Bluetooth (aptX) - from crosshatch-user 10 QP1A.190711.020 5800535 release-keys
 product/lib64/libaptX_encoder.so|df1c89d7af1bb35808d5fe3496b04ba066c10cbc
@@ -1985,11 +1985,11 @@ vendor/lib/libscveObjectTracker.so|646c13fda247004a04ff3803a2b155c091d20298
 vendor/lib/libscveObjectTracker_stub.so|6bf43b9f643ec642db25b719990209ae4ddfa06a
 vendor/lib/libscvePanorama.so|43dec408a005426ffdcfe7dbc88cf67ae91534c2
 vendor/lib/libscvePanorama_lite.so|59172b93589f202bdf211a1c3cf7eda9854302f6
-vendor/lib/rfsa/adsp/libfastcvadsp.so|5c86de2533d60534ce5b07e6be13bcf988e4b03b
-vendor/lib/rfsa/adsp/libfastcvdsp_skel.so|50ac955393bfae796e5fcaccad0bd8c90bd5d16a
-vendor/lib/rfsa/adsp/libscveBlobDescriptor_skel.so|637e3c05ff05fb62ff9eede4ba394cd8f1874e18
-vendor/lib/rfsa/adsp/libscveObjectSegmentation_skel.so|44ee517f73908376a226f02a1ecd7ab22e5ae6ca
-vendor/lib/rfsa/adsp/libscveT2T_skel.so|b1c232b8fe7a11754a2f2148d4d2f12496a1dbe1
+#vendor/lib/rfsa/adsp/libfastcvadsp.so|5c86de2533d60534ce5b07e6be13bcf988e4b03b
+#vendor/lib/rfsa/adsp/libfastcvdsp_skel.so|50ac955393bfae796e5fcaccad0bd8c90bd5d16a
+#vendor/lib/rfsa/adsp/libscveBlobDescriptor_skel.so|637e3c05ff05fb62ff9eede4ba394cd8f1874e18
+#vendor/lib/rfsa/adsp/libscveObjectSegmentation_skel.so|44ee517f73908376a226f02a1ecd7ab22e5ae6ca
+#vendor/lib/rfsa/adsp/libscveT2T_skel.so|b1c232b8fe7a11754a2f2148d4d2f12496a1dbe1
 vendor/lib64/libfastcvdsp_stub.so|acb42c1e615c25428740bfcc98173e9c2bb50578
 vendor/lib64/libfastcvopt.so|8c8ffef560b7eae88824b13ef05af3a6a5e2ee39
 vendor/lib64/libscveBlobDescriptor.so|269ff8fc2a5a576dab62b4e69d2d5ceca1dd3264
