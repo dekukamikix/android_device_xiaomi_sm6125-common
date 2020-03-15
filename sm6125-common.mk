@@ -26,10 +26,6 @@ TARGET_SCREEN_WIDTH := 1080
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
 
-# RRO (Runtime Resource Overlay)
-PRODUCT_ENFORCE_RRO_TARGETS := \
-    framework-res
-
 #PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += \
 #    $(LOCAL_PATH)/overlay/packages/apps/Snap
 
@@ -402,11 +398,8 @@ PRODUCT_PACKAGES += \
     libsensorndkbridge
 
 # Telephony
-#PRODUCT_PACKAGES += \
-#    telephony-ext
-
-#PRODUCT_BOOT_JARS += \
-#    telephony-ext
+PRODUCT_PACKAGES += \
+    telephony-ext
 
 # TextClassifier
 PRODUCT_PACKAGES += \
